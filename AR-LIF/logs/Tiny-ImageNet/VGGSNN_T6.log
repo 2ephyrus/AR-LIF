@@ -1,0 +1,600 @@
+Namespace(T=6, T_max=200, amp=True, b=128, cutupmix_auto=True, data_dir='/root/autodl-tmp/datasets/tiny', dataset='tiny_imagenet', drop_rate=0.0, epochs=200, gamma=0.1, j=16, label_smoothing=0.0, loss_lambda=0.2, loss_means=1.0, lr=0.1, lr_scheduler='CosALR', model='vggsnn', momentum=0.9, mse_n_reg=True, multiple_step=False, name='', neuron_model='XLIF', opt='SGD', out_dir='./logs', pre_train=None, resume=None, save_init=False, seed=2022, step_size=100, surrogate='rectangle', tau=2.0, weight_decay=0.0005)
+epoch=0, train_loss=3.820144353103638, train_acc=0.08082, test_loss=3.3719825672149657, test_acc=0.1691, max_test_acc=0.1691, total_time=564.1380186080933, escape_time=2025-08-12 05:35:56
+after one epoch: 43.781250GB
+
+epoch=1, train_loss=3.3566305743408202, train_acc=0.17796, test_loss=2.9515997150421143, test_acc=0.2724, max_test_acc=0.2724, total_time=563.7686283588409, escape_time=2025-08-12 05:34:42
+after one epoch: 43.781250GB
+
+epoch=2, train_loss=3.099878739929199, train_acc=0.24202, test_loss=2.7636439834594726, test_acc=0.3168, max_test_acc=0.3168, total_time=563.6107075214386, escape_time=2025-08-12 05:34:11
+after one epoch: 43.781250GB
+
+epoch=3, train_loss=2.9249223808288574, train_acc=0.28626, test_loss=2.6585982719421386, test_acc=0.3452, max_test_acc=0.3452, total_time=563.698867559433, escape_time=2025-08-12 05:34:28
+after one epoch: 43.781250GB
+
+epoch=4, train_loss=2.790703480300903, train_acc=0.32047, test_loss=2.5410970554351806, test_acc=0.3814, max_test_acc=0.3814, total_time=563.766196012497, escape_time=2025-08-12 05:34:41
+after one epoch: 43.781250GB
+
+epoch=5, train_loss=2.690836483154297, train_acc=0.3476, test_loss=2.4830019412994386, test_acc=0.3894, max_test_acc=0.3894, total_time=564.4586074352264, escape_time=2025-08-12 05:36:57
+after one epoch: 43.781250GB
+
+epoch=6, train_loss=2.624356410217285, train_acc=0.36475, test_loss=2.411767514038086, test_acc=0.4226, max_test_acc=0.4226, total_time=564.8049354553223, escape_time=2025-08-12 05:38:05
+after one epoch: 43.781250GB
+
+epoch=7, train_loss=2.5686646714782713, train_acc=0.37678, test_loss=2.3224922023773193, test_acc=0.4408, max_test_acc=0.4408, total_time=564.4051201343536, escape_time=2025-08-12 05:36:47
+after one epoch: 43.781250GB
+
+epoch=8, train_loss=2.5254930461120604, train_acc=0.39099, test_loss=2.291961907196045, test_acc=0.4467, max_test_acc=0.4467, total_time=565.0764620304108, escape_time=2025-08-12 05:38:57
+after one epoch: 43.781250GB
+
+epoch=9, train_loss=2.4898571210479736, train_acc=0.39939, test_loss=2.2950660848617552, test_acc=0.4375, max_test_acc=0.4467, total_time=564.6226420402527, escape_time=2025-08-12 05:37:30
+after one epoch: 43.781250GB
+
+epoch=10, train_loss=2.455869836807251, train_acc=0.40817, test_loss=2.2518291442871092, test_acc=0.4586, max_test_acc=0.4586, total_time=563.6577382087708, escape_time=2025-08-12 05:34:25
+after one epoch: 43.781250GB
+
+epoch=11, train_loss=2.428382936782837, train_acc=0.41539, test_loss=2.304134785079956, test_acc=0.4393, max_test_acc=0.4586, total_time=563.2569155693054, escape_time=2025-08-12 05:33:09
+after one epoch: 43.781250GB
+
+epoch=12, train_loss=2.4108268244171143, train_acc=0.4199, test_loss=2.2245674964904785, test_acc=0.4599, max_test_acc=0.4599, total_time=563.5214295387268, escape_time=2025-08-12 05:33:59
+after one epoch: 43.781250GB
+
+epoch=13, train_loss=2.4031773017883302, train_acc=0.4229, test_loss=2.273711387825012, test_acc=0.448, max_test_acc=0.4599, total_time=563.6448059082031, escape_time=2025-08-12 05:34:22
+after one epoch: 43.781250GB
+
+epoch=14, train_loss=2.379044381103516, train_acc=0.42818, test_loss=2.2285778871536257, test_acc=0.4632, max_test_acc=0.4632, total_time=563.6319453716278, escape_time=2025-08-12 05:34:20
+after one epoch: 43.781250GB
+
+epoch=15, train_loss=2.3688810473632813, train_acc=0.43002, test_loss=2.1947421377182006, test_acc=0.4747, max_test_acc=0.4747, total_time=563.3937764167786, escape_time=2025-08-12 05:33:36
+after one epoch: 43.781250GB
+
+epoch=16, train_loss=2.3574281376647948, train_acc=0.43404, test_loss=2.176899639892578, test_acc=0.4806, max_test_acc=0.4806, total_time=563.3093593120575, escape_time=2025-08-12 05:33:20
+after one epoch: 43.781250GB
+
+epoch=17, train_loss=2.343129590682983, train_acc=0.43792, test_loss=2.206837785720825, test_acc=0.4627, max_test_acc=0.4806, total_time=563.1791362762451, escape_time=2025-08-12 05:32:56
+after one epoch: 43.781250GB
+
+epoch=18, train_loss=2.337461371459961, train_acc=0.43884, test_loss=2.2209337884902953, test_acc=0.4644, max_test_acc=0.4806, total_time=563.5007317066193, escape_time=2025-08-12 05:33:55
+after one epoch: 43.783203GB
+
+epoch=19, train_loss=2.3252238958740232, train_acc=0.44262, test_loss=2.2083067989349363, test_acc=0.4674, max_test_acc=0.4806, total_time=563.4587023258209, escape_time=2025-08-12 05:33:47
+after one epoch: 43.783203GB
+
+epoch=20, train_loss=2.314534482116699, train_acc=0.44655, test_loss=2.135463015174866, test_acc=0.4858, max_test_acc=0.4858, total_time=563.1715564727783, escape_time=2025-08-12 05:32:55
+after one epoch: 43.783203GB
+
+epoch=21, train_loss=2.299956925201416, train_acc=0.44946, test_loss=2.170920338821411, test_acc=0.4698, max_test_acc=0.4858, total_time=563.1092722415924, escape_time=2025-08-12 05:32:44
+after one epoch: 43.783203GB
+
+epoch=22, train_loss=2.2981864316558838, train_acc=0.44949, test_loss=2.202651762008667, test_acc=0.4671, max_test_acc=0.4858, total_time=563.1100769042969, escape_time=2025-08-12 05:32:44
+after one epoch: 43.783203GB
+
+epoch=23, train_loss=2.291532653274536, train_acc=0.45402, test_loss=2.128911331176758, test_acc=0.4844, max_test_acc=0.4858, total_time=563.0667288303375, escape_time=2025-08-12 05:32:36
+after one epoch: 43.783203GB
+
+epoch=24, train_loss=2.2885102590179445, train_acc=0.45015, test_loss=2.1326988330841066, test_acc=0.4791, max_test_acc=0.4858, total_time=563.001305103302, escape_time=2025-08-12 05:32:25
+after one epoch: 43.783203GB
+
+epoch=25, train_loss=2.280231114501953, train_acc=0.45361, test_loss=2.1498513095855714, test_acc=0.4826, max_test_acc=0.4858, total_time=563.0923254489899, escape_time=2025-08-12 05:32:41
+after one epoch: 43.783203GB
+
+epoch=26, train_loss=2.271761541671753, train_acc=0.45837, test_loss=2.1239855251312254, test_acc=0.4895, max_test_acc=0.4895, total_time=563.2287917137146, escape_time=2025-08-12 05:33:05
+after one epoch: 43.783203GB
+
+epoch=27, train_loss=2.2692966023254395, train_acc=0.4559, test_loss=2.1969829692840577, test_acc=0.4702, max_test_acc=0.4895, total_time=563.1455361843109, escape_time=2025-08-12 05:32:50
+after one epoch: 43.783203GB
+
+epoch=28, train_loss=2.2620615296173097, train_acc=0.45957, test_loss=2.156705167198181, test_acc=0.4745, max_test_acc=0.4895, total_time=563.1070830821991, escape_time=2025-08-12 05:32:44
+after one epoch: 43.783203GB
+
+epoch=29, train_loss=2.2584434819030763, train_acc=0.46071, test_loss=2.1119480667114257, test_acc=0.4889, max_test_acc=0.4895, total_time=563.1557493209839, escape_time=2025-08-12 05:32:52
+after one epoch: 43.783203GB
+
+epoch=30, train_loss=2.243252882537842, train_acc=0.46456, test_loss=2.105089499664307, test_acc=0.4908, max_test_acc=0.4908, total_time=563.1340663433075, escape_time=2025-08-12 05:32:48
+after one epoch: 43.783203GB
+
+epoch=31, train_loss=2.2455700228118896, train_acc=0.46186, test_loss=2.1097565183639526, test_acc=0.4896, max_test_acc=0.4908, total_time=562.9945859909058, escape_time=2025-08-12 05:32:25
+after one epoch: 43.783203GB
+
+epoch=32, train_loss=2.230983100967407, train_acc=0.46864, test_loss=2.1470131391525267, test_acc=0.4893, max_test_acc=0.4908, total_time=563.0763902664185, escape_time=2025-08-12 05:32:38
+after one epoch: 43.783203GB
+
+epoch=33, train_loss=2.235999305267334, train_acc=0.46753, test_loss=2.1452104579925537, test_acc=0.4785, max_test_acc=0.4908, total_time=563.1013503074646, escape_time=2025-08-12 05:32:43
+after one epoch: 43.783203GB
+
+epoch=34, train_loss=2.2288585609817506, train_acc=0.4688, test_loss=2.0458819259643555, test_acc=0.5072, max_test_acc=0.5072, total_time=563.2360436916351, escape_time=2025-08-12 05:33:05
+after one epoch: 43.783203GB
+
+epoch=35, train_loss=2.2257301988983156, train_acc=0.46954, test_loss=2.083308683013916, test_acc=0.4979, max_test_acc=0.5072, total_time=563.1916089057922, escape_time=2025-08-12 05:32:58
+after one epoch: 43.783203GB
+
+epoch=36, train_loss=2.230033900527954, train_acc=0.46758, test_loss=2.0652537284851076, test_acc=0.5004, max_test_acc=0.5072, total_time=563.0320088863373, escape_time=2025-08-12 05:32:31
+after one epoch: 43.783203GB
+
+epoch=37, train_loss=2.2167106449127196, train_acc=0.4705, test_loss=2.114775595855713, test_acc=0.4855, max_test_acc=0.5072, total_time=563.0270686149597, escape_time=2025-08-12 05:32:31
+after one epoch: 43.783203GB
+
+epoch=38, train_loss=2.208797974243164, train_acc=0.47286, test_loss=2.068248272705078, test_acc=0.4994, max_test_acc=0.5072, total_time=563.2014048099518, escape_time=2025-08-12 05:32:59
+after one epoch: 43.783203GB
+
+epoch=39, train_loss=2.2080163660430907, train_acc=0.47351, test_loss=2.082211527633667, test_acc=0.5016, max_test_acc=0.5072, total_time=563.0816216468811, escape_time=2025-08-12 05:32:40
+after one epoch: 43.783203GB
+
+epoch=40, train_loss=2.2035317552948, train_acc=0.4754, test_loss=2.1513072546005247, test_acc=0.4784, max_test_acc=0.5072, total_time=563.1035754680634, escape_time=2025-08-12 05:32:43
+after one epoch: 43.783203GB
+
+epoch=41, train_loss=2.195219376373291, train_acc=0.47777, test_loss=2.0798218868255614, test_acc=0.4965, max_test_acc=0.5072, total_time=563.023255109787, escape_time=2025-08-12 05:32:30
+after one epoch: 43.783203GB
+
+epoch=42, train_loss=2.1930675284576417, train_acc=0.47851, test_loss=2.093543994522095, test_acc=0.4949, max_test_acc=0.5072, total_time=563.1768159866333, escape_time=2025-08-12 05:32:55
+after one epoch: 43.783203GB
+
+epoch=43, train_loss=2.1886581774139406, train_acc=0.47842, test_loss=2.0715908447265625, test_acc=0.5013, max_test_acc=0.5072, total_time=563.1184628009796, escape_time=2025-08-12 05:32:46
+after one epoch: 43.783203GB
+
+epoch=44, train_loss=2.1869429830932616, train_acc=0.47803, test_loss=2.07198664226532, test_acc=0.4917, max_test_acc=0.5072, total_time=563.1554336547852, escape_time=2025-08-12 05:32:51
+after one epoch: 43.783203GB
+
+epoch=45, train_loss=2.1777136071777345, train_acc=0.48261, test_loss=2.159416410064697, test_acc=0.4788, max_test_acc=0.5072, total_time=563.1806972026825, escape_time=2025-08-12 05:32:55
+after one epoch: 43.783203GB
+
+epoch=46, train_loss=2.174796112213135, train_acc=0.48196, test_loss=2.0378750244140624, test_acc=0.5039, max_test_acc=0.5072, total_time=563.1299824714661, escape_time=2025-08-12 05:32:47
+after one epoch: 43.783203GB
+
+epoch=47, train_loss=2.170234966506958, train_acc=0.48388, test_loss=2.0866313863754273, test_acc=0.4974, max_test_acc=0.5072, total_time=563.1502869129181, escape_time=2025-08-12 05:32:51
+after one epoch: 43.783203GB
+
+epoch=48, train_loss=2.1645565554046633, train_acc=0.48483, test_loss=2.0742673442840576, test_acc=0.4998, max_test_acc=0.5072, total_time=563.0415260791779, escape_time=2025-08-12 05:32:34
+after one epoch: 43.783203GB
+
+epoch=49, train_loss=2.1601321172332764, train_acc=0.48712, test_loss=2.015517873954773, test_acc=0.5176, max_test_acc=0.5176, total_time=563.184975862503, escape_time=2025-08-12 05:32:56
+after one epoch: 43.783203GB
+
+epoch=50, train_loss=2.1591821739196777, train_acc=0.48777, test_loss=1.9991768260955811, test_acc=0.5161, max_test_acc=0.5176, total_time=563.0700128078461, escape_time=2025-08-12 05:32:38
+after one epoch: 43.783203GB
+
+epoch=51, train_loss=2.153184514770508, train_acc=0.48969, test_loss=2.008155093193054, test_acc=0.5161, max_test_acc=0.5176, total_time=563.0149660110474, escape_time=2025-08-12 05:32:30
+after one epoch: 43.783203GB
+
+epoch=52, train_loss=2.1462278720092773, train_acc=0.48935, test_loss=2.0060774799346923, test_acc=0.5189, max_test_acc=0.5189, total_time=563.2523610591888, escape_time=2025-08-12 05:33:05
+after one epoch: 43.783203GB
+
+epoch=53, train_loss=2.143339489440918, train_acc=0.4922, test_loss=2.066696961212158, test_acc=0.5, max_test_acc=0.5189, total_time=563.1195902824402, escape_time=2025-08-12 05:32:46
+after one epoch: 43.783203GB
+
+epoch=54, train_loss=2.1339761791992187, train_acc=0.4942, test_loss=2.010922038078308, test_acc=0.5161, max_test_acc=0.5189, total_time=563.1318688392639, escape_time=2025-08-12 05:32:48
+after one epoch: 43.783203GB
+
+epoch=55, train_loss=2.130034737930298, train_acc=0.49452, test_loss=2.023898979187012, test_acc=0.5074, max_test_acc=0.5189, total_time=563.1010451316833, escape_time=2025-08-12 05:32:43
+after one epoch: 43.783203GB
+
+epoch=56, train_loss=2.128891869735718, train_acc=0.49493, test_loss=1.9925996732711793, test_acc=0.5183, max_test_acc=0.5189, total_time=563.2126359939575, escape_time=2025-08-12 05:32:59
+after one epoch: 43.783203GB
+
+epoch=57, train_loss=2.1265203197479248, train_acc=0.49638, test_loss=1.9489567813873292, test_acc=0.5322, max_test_acc=0.5322, total_time=563.1730554103851, escape_time=2025-08-12 05:32:54
+after one epoch: 43.783203GB
+
+epoch=58, train_loss=2.114498401031494, train_acc=0.4989, test_loss=2.034348984718323, test_acc=0.5103, max_test_acc=0.5322, total_time=563.0228517055511, escape_time=2025-08-12 05:32:32
+after one epoch: 43.783203GB
+
+epoch=59, train_loss=2.107316741027832, train_acc=0.50117, test_loss=2.008374291229248, test_acc=0.5182, max_test_acc=0.5322, total_time=563.1187429428101, escape_time=2025-08-12 05:32:46
+after one epoch: 43.783203GB
+
+epoch=60, train_loss=2.104503905181885, train_acc=0.50103, test_loss=2.0166662307739256, test_acc=0.5111, max_test_acc=0.5322, total_time=563.2122733592987, escape_time=2025-08-12 05:32:59
+after one epoch: 43.783203GB
+
+epoch=61, train_loss=2.104872125854492, train_acc=0.50215, test_loss=1.9849482868194581, test_acc=0.527, max_test_acc=0.5322, total_time=563.105988740921, escape_time=2025-08-12 05:32:44
+after one epoch: 43.783203GB
+
+epoch=62, train_loss=2.0976070990753173, train_acc=0.50468, test_loss=1.9720775945663451, test_acc=0.5303, max_test_acc=0.5322, total_time=563.0832211971283, escape_time=2025-08-12 05:32:41
+after one epoch: 43.783203GB
+
+epoch=63, train_loss=2.0934999486541748, train_acc=0.50404, test_loss=1.9730542167663574, test_acc=0.5263, max_test_acc=0.5322, total_time=563.1386442184448, escape_time=2025-08-12 05:32:49
+after one epoch: 43.783203GB
+
+epoch=64, train_loss=2.087483619918823, train_acc=0.50584, test_loss=1.9678596910476684, test_acc=0.5323, max_test_acc=0.5323, total_time=563.1462726593018, escape_time=2025-08-12 05:32:50
+after one epoch: 43.783203GB
+
+epoch=65, train_loss=2.0813133507919312, train_acc=0.50966, test_loss=1.9526073049545287, test_acc=0.5329, max_test_acc=0.5329, total_time=563.051730632782, escape_time=2025-08-12 05:32:37
+after one epoch: 43.783203GB
+
+epoch=66, train_loss=2.0724938897705076, train_acc=0.51181, test_loss=2.0236469449996948, test_acc=0.513, max_test_acc=0.5329, total_time=563.062198638916, escape_time=2025-08-12 05:32:38
+after one epoch: 43.783203GB
+
+epoch=67, train_loss=2.0643938706970215, train_acc=0.513, test_loss=1.9827971506118773, test_acc=0.53, max_test_acc=0.5329, total_time=563.2923333644867, escape_time=2025-08-12 05:33:09
+after one epoch: 43.783203GB
+
+epoch=68, train_loss=2.0664417840576172, train_acc=0.51143, test_loss=1.9706385675430298, test_acc=0.5281, max_test_acc=0.5329, total_time=563.4477336406708, escape_time=2025-08-12 05:33:30
+after one epoch: 43.783203GB
+
+epoch=69, train_loss=2.0575358126449586, train_acc=0.51555, test_loss=1.918926509666443, test_acc=0.5455, max_test_acc=0.5455, total_time=563.6687734127045, escape_time=2025-08-12 05:33:59
+after one epoch: 43.783203GB
+
+epoch=70, train_loss=2.053742878189087, train_acc=0.51623, test_loss=1.9698740879058838, test_acc=0.5316, max_test_acc=0.5455, total_time=563.6426630020142, escape_time=2025-08-12 05:33:55
+after one epoch: 43.783203GB
+
+epoch=71, train_loss=2.047499263305664, train_acc=0.5175, test_loss=1.9493101093292236, test_acc=0.5328, max_test_acc=0.5455, total_time=563.7112152576447, escape_time=2025-08-12 05:34:04
+after one epoch: 43.783203GB
+
+epoch=72, train_loss=2.0462956074142458, train_acc=0.51713, test_loss=1.9053051666259766, test_acc=0.5462, max_test_acc=0.5462, total_time=563.9364802837372, escape_time=2025-08-12 05:34:33
+after one epoch: 43.783203GB
+
+epoch=73, train_loss=2.0321063676452638, train_acc=0.52141, test_loss=1.982405602645874, test_acc=0.526, max_test_acc=0.5462, total_time=563.890830039978, escape_time=2025-08-12 05:34:28
+after one epoch: 43.783203GB
+
+epoch=74, train_loss=2.024424428253174, train_acc=0.52318, test_loss=1.9482336460113525, test_acc=0.5288, max_test_acc=0.5462, total_time=563.9992129802704, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=75, train_loss=2.0224433309173584, train_acc=0.5252, test_loss=1.9337393091201782, test_acc=0.5341, max_test_acc=0.5462, total_time=563.9657785892487, escape_time=2025-08-12 05:34:37
+after one epoch: 43.783203GB
+
+epoch=76, train_loss=2.0161170984268186, train_acc=0.5271, test_loss=1.919356275177002, test_acc=0.5362, max_test_acc=0.5462, total_time=563.6957194805145, escape_time=2025-08-12 05:34:03
+after one epoch: 43.783203GB
+
+epoch=77, train_loss=2.006537593421936, train_acc=0.52992, test_loss=1.8983321119308472, test_acc=0.5481, max_test_acc=0.5481, total_time=564.0267050266266, escape_time=2025-08-12 05:34:44
+after one epoch: 43.783203GB
+
+epoch=78, train_loss=2.011283900527954, train_acc=0.52915, test_loss=1.9134899099349976, test_acc=0.5399, max_test_acc=0.5481, total_time=564.0073981285095, escape_time=2025-08-12 05:34:42
+after one epoch: 43.783203GB
+
+epoch=79, train_loss=2.002941247329712, train_acc=0.53164, test_loss=1.9603199153900146, test_acc=0.533, max_test_acc=0.5481, total_time=564.0002264976501, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=80, train_loss=1.99633254737854, train_acc=0.53184, test_loss=1.9107656311035157, test_acc=0.5408, max_test_acc=0.5481, total_time=564.0336418151855, escape_time=2025-08-12 05:34:45
+after one epoch: 43.783203GB
+
+epoch=81, train_loss=1.9851859873962403, train_acc=0.53519, test_loss=1.929544652557373, test_acc=0.5418, max_test_acc=0.5481, total_time=563.9608900547028, escape_time=2025-08-12 05:34:36
+after one epoch: 43.783203GB
+
+epoch=82, train_loss=1.9796395874786377, train_acc=0.53716, test_loss=1.9096395015716552, test_acc=0.541, max_test_acc=0.5481, total_time=564.0046119689941, escape_time=2025-08-12 05:34:42
+after one epoch: 43.783203GB
+
+epoch=83, train_loss=1.9659673066711425, train_acc=0.54315, test_loss=1.90802621383667, test_acc=0.5422, max_test_acc=0.5481, total_time=564.0672764778137, escape_time=2025-08-12 05:34:49
+after one epoch: 43.783203GB
+
+epoch=84, train_loss=1.9627565218353271, train_acc=0.54307, test_loss=1.9177056955337524, test_acc=0.5425, max_test_acc=0.5481, total_time=563.9590244293213, escape_time=2025-08-12 05:34:36
+after one epoch: 43.783203GB
+
+epoch=85, train_loss=1.9602774630737305, train_acc=0.54404, test_loss=1.909257490158081, test_acc=0.5458, max_test_acc=0.5481, total_time=563.8414421081543, escape_time=2025-08-12 05:34:23
+after one epoch: 43.783203GB
+
+epoch=86, train_loss=1.950331167755127, train_acc=0.54466, test_loss=1.9162909492492677, test_acc=0.5455, max_test_acc=0.5481, total_time=563.7809271812439, escape_time=2025-08-12 05:34:16
+after one epoch: 43.783203GB
+
+epoch=87, train_loss=1.9564761331176759, train_acc=0.54446, test_loss=1.8805472162246704, test_acc=0.5524, max_test_acc=0.5524, total_time=564.0730166435242, escape_time=2025-08-12 05:34:49
+after one epoch: 43.783203GB
+
+epoch=88, train_loss=1.9399834988021851, train_acc=0.54912, test_loss=1.8710554801940917, test_acc=0.5513, max_test_acc=0.5524, total_time=564.1969451904297, escape_time=2025-08-12 05:35:03
+after one epoch: 43.783203GB
+
+epoch=89, train_loss=1.9349329323577882, train_acc=0.55005, test_loss=1.8547995594024658, test_acc=0.5566, max_test_acc=0.5566, total_time=564.3158791065216, escape_time=2025-08-12 05:35:16
+after one epoch: 43.783203GB
+
+epoch=90, train_loss=1.9267098036193848, train_acc=0.55298, test_loss=1.9068937080383301, test_acc=0.5481, max_test_acc=0.5566, total_time=564.138219833374, escape_time=2025-08-12 05:34:57
+after one epoch: 43.783203GB
+
+epoch=91, train_loss=1.9177663152694702, train_acc=0.55504, test_loss=1.897137752532959, test_acc=0.5536, max_test_acc=0.5566, total_time=564.1442811489105, escape_time=2025-08-12 05:34:57
+after one epoch: 43.783203GB
+
+epoch=92, train_loss=1.9133733098220824, train_acc=0.55587, test_loss=1.9004345094680786, test_acc=0.5418, max_test_acc=0.5566, total_time=564.1205501556396, escape_time=2025-08-12 05:34:55
+after one epoch: 43.783203GB
+
+epoch=93, train_loss=1.9012187324523926, train_acc=0.56056, test_loss=1.8417228731155395, test_acc=0.5643, max_test_acc=0.5643, total_time=564.1291725635529, escape_time=2025-08-12 05:34:56
+after one epoch: 43.783203GB
+
+epoch=94, train_loss=1.8927257983398438, train_acc=0.56234, test_loss=1.9109471521377563, test_acc=0.5547, max_test_acc=0.5643, total_time=563.9116404056549, escape_time=2025-08-12 05:34:32
+after one epoch: 43.783203GB
+
+epoch=95, train_loss=1.8904827763366698, train_acc=0.56305, test_loss=1.8604024518966675, test_acc=0.557, max_test_acc=0.5643, total_time=564.1245791912079, escape_time=2025-08-12 05:34:55
+after one epoch: 43.783203GB
+
+epoch=96, train_loss=1.875298394241333, train_acc=0.56839, test_loss=1.842546711540222, test_acc=0.56, max_test_acc=0.5643, total_time=564.1158123016357, escape_time=2025-08-12 05:34:54
+after one epoch: 43.783203GB
+
+epoch=97, train_loss=1.8757482524871827, train_acc=0.5664, test_loss=1.825753554916382, test_acc=0.5694, max_test_acc=0.5694, total_time=564.0124986171722, escape_time=2025-08-12 05:34:43
+after one epoch: 43.783203GB
+
+epoch=98, train_loss=1.8659912924575806, train_acc=0.56981, test_loss=1.8372802406311035, test_acc=0.5665, max_test_acc=0.5694, total_time=563.9611129760742, escape_time=2025-08-12 05:34:38
+after one epoch: 43.783203GB
+
+epoch=99, train_loss=1.8564788876342773, train_acc=0.57277, test_loss=1.8237972188949585, test_acc=0.5656, max_test_acc=0.5694, total_time=564.1949532032013, escape_time=2025-08-12 05:35:02
+after one epoch: 43.783203GB
+
+epoch=100, train_loss=1.854152514038086, train_acc=0.57491, test_loss=1.8011533082962037, test_acc=0.5808, max_test_acc=0.5808, total_time=564.0879135131836, escape_time=2025-08-12 05:34:51
+after one epoch: 43.783203GB
+
+epoch=101, train_loss=1.8397894645309447, train_acc=0.57811, test_loss=1.827939647102356, test_acc=0.5673, max_test_acc=0.5808, total_time=564.0797173976898, escape_time=2025-08-12 05:34:50
+after one epoch: 43.783203GB
+
+epoch=102, train_loss=1.8260179893493653, train_acc=0.58174, test_loss=1.813103854560852, test_acc=0.5749, max_test_acc=0.5808, total_time=564.0354251861572, escape_time=2025-08-12 05:34:46
+after one epoch: 43.783203GB
+
+epoch=103, train_loss=1.8198034713363647, train_acc=0.58513, test_loss=1.7856626083374023, test_acc=0.5761, max_test_acc=0.5808, total_time=564.1782867908478, escape_time=2025-08-12 05:35:00
+after one epoch: 43.783203GB
+
+epoch=104, train_loss=1.8178368690872193, train_acc=0.58408, test_loss=1.8135268663406372, test_acc=0.5775, max_test_acc=0.5808, total_time=564.5648014545441, escape_time=2025-08-12 05:35:37
+after one epoch: 43.783203GB
+
+epoch=105, train_loss=1.8091698558807372, train_acc=0.58639, test_loss=1.7880883823394775, test_acc=0.5751, max_test_acc=0.5808, total_time=564.4084758758545, escape_time=2025-08-12 05:35:22
+after one epoch: 43.783203GB
+
+epoch=106, train_loss=1.7966218339157105, train_acc=0.59038, test_loss=1.7796579927444458, test_acc=0.5784, max_test_acc=0.5808, total_time=564.5533611774445, escape_time=2025-08-12 05:35:36
+after one epoch: 43.783203GB
+
+epoch=107, train_loss=1.7896896349334717, train_acc=0.59318, test_loss=1.7731950462341308, test_acc=0.5807, max_test_acc=0.5808, total_time=564.1427292823792, escape_time=2025-08-12 05:34:58
+after one epoch: 43.783203GB
+
+epoch=108, train_loss=1.7784200942611694, train_acc=0.59575, test_loss=1.771507856941223, test_acc=0.5819, max_test_acc=0.5819, total_time=564.3387973308563, escape_time=2025-08-12 05:35:16
+after one epoch: 43.783203GB
+
+epoch=109, train_loss=1.7721937480545045, train_acc=0.59723, test_loss=1.7541089500427247, test_acc=0.5826, max_test_acc=0.5826, total_time=564.5012943744659, escape_time=2025-08-12 05:35:31
+after one epoch: 43.783203GB
+
+epoch=110, train_loss=1.7644953874588012, train_acc=0.59962, test_loss=1.790011979675293, test_acc=0.5775, max_test_acc=0.5826, total_time=564.1851422786713, escape_time=2025-08-12 05:35:02
+after one epoch: 43.783203GB
+
+epoch=111, train_loss=1.7587913135147095, train_acc=0.60166, test_loss=1.7927875457763671, test_acc=0.5776, max_test_acc=0.5826, total_time=564.2399854660034, escape_time=2025-08-12 05:35:07
+after one epoch: 43.783203GB
+
+epoch=112, train_loss=1.7467149074554444, train_acc=0.60518, test_loss=1.7689967435836793, test_acc=0.5805, max_test_acc=0.5826, total_time=564.1179413795471, escape_time=2025-08-12 05:34:56
+after one epoch: 43.783203GB
+
+epoch=113, train_loss=1.7315233030319215, train_acc=0.60989, test_loss=1.7601877597808837, test_acc=0.5875, max_test_acc=0.5875, total_time=564.6383857727051, escape_time=2025-08-12 05:35:42
+after one epoch: 43.783203GB
+
+epoch=114, train_loss=1.7261168243408203, train_acc=0.61108, test_loss=1.7570547956466676, test_acc=0.5875, max_test_acc=0.5875, total_time=564.6375074386597, escape_time=2025-08-12 05:35:42
+after one epoch: 43.783203GB
+
+epoch=115, train_loss=1.7134833348464966, train_acc=0.6165, test_loss=1.7517141511917114, test_acc=0.5958, max_test_acc=0.5958, total_time=564.7400600910187, escape_time=2025-08-12 05:35:51
+after one epoch: 43.783203GB
+
+epoch=116, train_loss=1.7074675040054321, train_acc=0.61865, test_loss=1.73107362575531, test_acc=0.598, max_test_acc=0.598, total_time=564.8216524124146, escape_time=2025-08-12 05:35:57
+after one epoch: 43.783203GB
+
+epoch=117, train_loss=1.6972814738464355, train_acc=0.61918, test_loss=1.757841318321228, test_acc=0.5894, max_test_acc=0.598, total_time=564.351330280304, escape_time=2025-08-12 05:35:18
+after one epoch: 43.783203GB
+
+epoch=118, train_loss=1.6899049532699586, train_acc=0.62245, test_loss=1.732225217628479, test_acc=0.5936, max_test_acc=0.598, total_time=564.507520198822, escape_time=2025-08-12 05:35:31
+after one epoch: 43.783203GB
+
+epoch=119, train_loss=1.6804055726242066, train_acc=0.62686, test_loss=1.7086781282424928, test_acc=0.6009, max_test_acc=0.6009, total_time=564.6967267990112, escape_time=2025-08-12 05:35:46
+after one epoch: 43.783203GB
+
+epoch=120, train_loss=1.6659136096191407, train_acc=0.62933, test_loss=1.7116017391204834, test_acc=0.6031, max_test_acc=0.6031, total_time=564.7625894546509, escape_time=2025-08-12 05:35:52
+after one epoch: 43.783203GB
+
+epoch=121, train_loss=1.6585819207763672, train_acc=0.63228, test_loss=1.7062088836669922, test_acc=0.5972, max_test_acc=0.6031, total_time=565.3714327812195, escape_time=2025-08-12 05:36:40
+after one epoch: 43.783203GB
+
+epoch=122, train_loss=1.6429884588241577, train_acc=0.64, test_loss=1.7075511737823486, test_acc=0.6005, max_test_acc=0.6031, total_time=564.4690465927124, escape_time=2025-08-12 05:35:29
+after one epoch: 43.783203GB
+
+epoch=123, train_loss=1.6375952398681641, train_acc=0.63876, test_loss=1.701208113861084, test_acc=0.6017, max_test_acc=0.6031, total_time=563.729332447052, escape_time=2025-08-12 05:34:32
+after one epoch: 43.783203GB
+
+epoch=124, train_loss=1.626481025352478, train_acc=0.64128, test_loss=1.730400178718567, test_acc=0.5974, max_test_acc=0.6031, total_time=564.0994174480438, escape_time=2025-08-12 05:35:00
+after one epoch: 43.783203GB
+
+epoch=125, train_loss=1.6180260919952392, train_acc=0.64442, test_loss=1.7208702777862548, test_acc=0.5951, max_test_acc=0.6031, total_time=563.9369626045227, escape_time=2025-08-12 05:34:48
+after one epoch: 43.783203GB
+
+epoch=126, train_loss=1.6090092665100098, train_acc=0.64746, test_loss=1.7031478677749634, test_acc=0.6001, max_test_acc=0.6031, total_time=564.0288469791412, escape_time=2025-08-12 05:34:55
+after one epoch: 43.783203GB
+
+epoch=127, train_loss=1.596102021560669, train_acc=0.65056, test_loss=1.6959278118133545, test_acc=0.6046, max_test_acc=0.6046, total_time=564.2023329734802, escape_time=2025-08-12 05:35:07
+after one epoch: 43.783203GB
+
+epoch=128, train_loss=1.581736981239319, train_acc=0.65462, test_loss=1.6759636240005493, test_acc=0.6104, max_test_acc=0.6104, total_time=564.1618461608887, escape_time=2025-08-12 05:35:04
+after one epoch: 43.783203GB
+
+epoch=129, train_loss=1.5718729036712646, train_acc=0.65846, test_loss=1.6890017538070679, test_acc=0.6063, max_test_acc=0.6104, total_time=563.9772944450378, escape_time=2025-08-12 05:34:51
+after one epoch: 43.783203GB
+
+epoch=130, train_loss=1.563200897064209, train_acc=0.66061, test_loss=1.6671274240493774, test_acc=0.609, max_test_acc=0.6104, total_time=564.0373337268829, escape_time=2025-08-12 05:34:55
+after one epoch: 43.783203GB
+
+epoch=131, train_loss=1.548395135192871, train_acc=0.66524, test_loss=1.6599645387649535, test_acc=0.6203, max_test_acc=0.6203, total_time=564.2307949066162, escape_time=2025-08-12 05:35:09
+after one epoch: 43.783203GB
+
+epoch=132, train_loss=1.5381436047744752, train_acc=0.66929, test_loss=1.6721241453170776, test_acc=0.6197, max_test_acc=0.6203, total_time=564.0787830352783, escape_time=2025-08-12 05:34:58
+after one epoch: 43.783203GB
+
+epoch=133, train_loss=1.5305605743408204, train_acc=0.67242, test_loss=1.652463150024414, test_acc=0.6183, max_test_acc=0.6203, total_time=564.0598285198212, escape_time=2025-08-12 05:34:57
+after one epoch: 43.783203GB
+
+epoch=134, train_loss=1.515582384376526, train_acc=0.67542, test_loss=1.6503306825637818, test_acc=0.6159, max_test_acc=0.6203, total_time=564.0604693889618, escape_time=2025-08-12 05:34:57
+after one epoch: 43.783203GB
+
+epoch=135, train_loss=1.5069098900604248, train_acc=0.67784, test_loss=1.6720272909164429, test_acc=0.611, max_test_acc=0.6203, total_time=564.1439135074615, escape_time=2025-08-12 05:35:03
+after one epoch: 43.783203GB
+
+epoch=136, train_loss=1.4956252819442748, train_acc=0.68291, test_loss=1.637438452720642, test_acc=0.6211, max_test_acc=0.6211, total_time=564.1791903972626, escape_time=2025-08-12 05:35:05
+after one epoch: 43.783203GB
+
+epoch=137, train_loss=1.4811365782546997, train_acc=0.68727, test_loss=1.6365844856262206, test_acc=0.6175, max_test_acc=0.6211, total_time=564.1938879489899, escape_time=2025-08-12 05:35:06
+after one epoch: 43.783203GB
+
+epoch=138, train_loss=1.467157740135193, train_acc=0.69084, test_loss=1.6274752416610718, test_acc=0.6267, max_test_acc=0.6267, total_time=564.2006165981293, escape_time=2025-08-12 05:35:06
+after one epoch: 43.783203GB
+
+epoch=139, train_loss=1.4580590170288086, train_acc=0.69518, test_loss=1.6489047121047973, test_acc=0.6182, max_test_acc=0.6267, total_time=564.1000933647156, escape_time=2025-08-12 05:35:00
+after one epoch: 43.783203GB
+
+epoch=140, train_loss=1.4477948406982422, train_acc=0.69718, test_loss=1.6477665132522583, test_acc=0.614, max_test_acc=0.6267, total_time=564.0285787582397, escape_time=2025-08-12 05:34:56
+after one epoch: 43.783203GB
+
+epoch=141, train_loss=1.4362401146697998, train_acc=0.70225, test_loss=1.612986008644104, test_acc=0.632, max_test_acc=0.632, total_time=564.1212344169617, escape_time=2025-08-12 05:35:01
+after one epoch: 43.783203GB
+
+epoch=142, train_loss=1.4218862252807618, train_acc=0.70543, test_loss=1.6001300596237182, test_acc=0.638, max_test_acc=0.638, total_time=564.2162549495697, escape_time=2025-08-12 05:35:07
+after one epoch: 43.783203GB
+
+epoch=143, train_loss=1.4109619425964355, train_acc=0.70983, test_loss=1.6290464830398559, test_acc=0.6279, max_test_acc=0.638, total_time=564.2870087623596, escape_time=2025-08-12 05:35:11
+after one epoch: 43.783203GB
+
+epoch=144, train_loss=1.397753110923767, train_acc=0.71457, test_loss=1.6192126502990722, test_acc=0.6286, max_test_acc=0.638, total_time=564.0766336917877, escape_time=2025-08-12 05:34:59
+after one epoch: 43.783203GB
+
+epoch=145, train_loss=1.3830760034942626, train_acc=0.7185, test_loss=1.6225740997314453, test_acc=0.6299, max_test_acc=0.638, total_time=564.113044500351, escape_time=2025-08-12 05:35:01
+after one epoch: 43.783203GB
+
+epoch=146, train_loss=1.3681287077331543, train_acc=0.72379, test_loss=1.6012512266159058, test_acc=0.637, max_test_acc=0.638, total_time=564.0104229450226, escape_time=2025-08-12 05:34:55
+after one epoch: 43.783203GB
+
+epoch=147, train_loss=1.3609827535629273, train_acc=0.72568, test_loss=1.605790609931946, test_acc=0.6343, max_test_acc=0.638, total_time=564.0004599094391, escape_time=2025-08-12 05:34:55
+after one epoch: 43.783203GB
+
+epoch=148, train_loss=1.3464318572998046, train_acc=0.72954, test_loss=1.5918604166030883, test_acc=0.6379, max_test_acc=0.638, total_time=563.9279737472534, escape_time=2025-08-12 05:34:51
+after one epoch: 43.783203GB
+
+epoch=149, train_loss=1.3340197744750977, train_acc=0.73394, test_loss=1.6118739269256592, test_acc=0.6292, max_test_acc=0.638, total_time=563.8922894001007, escape_time=2025-08-12 05:34:49
+after one epoch: 43.783203GB
+
+epoch=150, train_loss=1.3208827470779418, train_acc=0.73773, test_loss=1.6038174488067627, test_acc=0.6367, max_test_acc=0.638, total_time=563.8734924793243, escape_time=2025-08-12 05:34:48
+after one epoch: 43.783203GB
+
+epoch=151, train_loss=1.3107705327224732, train_acc=0.7417, test_loss=1.5766523979187013, test_acc=0.6423, max_test_acc=0.6423, total_time=564.0633993148804, escape_time=2025-08-12 05:34:58
+after one epoch: 43.783203GB
+
+epoch=152, train_loss=1.2917821630096435, train_acc=0.74872, test_loss=1.5670998279571533, test_acc=0.6463, max_test_acc=0.6463, total_time=563.8960435390472, escape_time=2025-08-12 05:34:50
+after one epoch: 43.783203GB
+
+epoch=153, train_loss=1.2827123293685914, train_acc=0.75055, test_loss=1.5785786445617676, test_acc=0.6455, max_test_acc=0.6463, total_time=563.6772365570068, escape_time=2025-08-12 05:34:39
+after one epoch: 43.783203GB
+
+epoch=154, train_loss=1.26688979888916, train_acc=0.75519, test_loss=1.5731347049713136, test_acc=0.645, max_test_acc=0.6463, total_time=563.5790736675262, escape_time=2025-08-12 05:34:34
+after one epoch: 43.783203GB
+
+epoch=155, train_loss=1.2586032991027831, train_acc=0.75743, test_loss=1.5757974378585815, test_acc=0.6438, max_test_acc=0.6463, total_time=564.4107103347778, escape_time=2025-08-12 05:35:13
+after one epoch: 43.783203GB
+
+epoch=156, train_loss=1.2381487730789185, train_acc=0.76554, test_loss=1.5620034166336059, test_acc=0.6438, max_test_acc=0.6463, total_time=564.4659841060638, escape_time=2025-08-12 05:35:15
+after one epoch: 43.783203GB
+
+epoch=157, train_loss=1.2267020707702636, train_acc=0.76915, test_loss=1.563313296508789, test_acc=0.6452, max_test_acc=0.6463, total_time=563.6216282844543, escape_time=2025-08-12 05:34:38
+after one epoch: 43.783203GB
+
+epoch=158, train_loss=1.2057453692626954, train_acc=0.77432, test_loss=1.561943018913269, test_acc=0.6398, max_test_acc=0.6463, total_time=563.3698964118958, escape_time=2025-08-12 05:34:27
+after one epoch: 43.783203GB
+
+epoch=159, train_loss=1.193587294692993, train_acc=0.77897, test_loss=1.550545506477356, test_acc=0.6511, max_test_acc=0.6511, total_time=563.2559297084808, escape_time=2025-08-12 05:34:22
+after one epoch: 43.783203GB
+
+epoch=160, train_loss=1.1844563347625732, train_acc=0.78237, test_loss=1.5694190597534179, test_acc=0.6452, max_test_acc=0.6511, total_time=563.4975724220276, escape_time=2025-08-12 05:34:32
+after one epoch: 43.783203GB
+
+epoch=161, train_loss=1.1687252321624755, train_acc=0.78772, test_loss=1.5298080457687377, test_acc=0.6582, max_test_acc=0.6582, total_time=563.2504019737244, escape_time=2025-08-12 05:34:22
+after one epoch: 43.783203GB
+
+epoch=162, train_loss=1.1585511407470703, train_acc=0.79204, test_loss=1.543018762397766, test_acc=0.6601, max_test_acc=0.6601, total_time=562.9796833992004, escape_time=2025-08-12 05:34:12
+after one epoch: 43.783203GB
+
+epoch=163, train_loss=1.141884561882019, train_acc=0.79575, test_loss=1.54744273853302, test_acc=0.6511, max_test_acc=0.6601, total_time=563.004887342453, escape_time=2025-08-12 05:34:13
+after one epoch: 43.783203GB
+
+epoch=164, train_loss=1.1262813800811768, train_acc=0.80109, test_loss=1.5383810529708861, test_acc=0.657, max_test_acc=0.6601, total_time=563.0807974338531, escape_time=2025-08-12 05:34:16
+after one epoch: 43.783203GB
+
+epoch=165, train_loss=1.105760937385559, train_acc=0.80771, test_loss=1.5270434148788452, test_acc=0.6565, max_test_acc=0.6601, total_time=563.8922500610352, escape_time=2025-08-12 05:34:45
+after one epoch: 43.783203GB
+
+epoch=166, train_loss=1.102775671005249, train_acc=0.80774, test_loss=1.5176446983337402, test_acc=0.6637, max_test_acc=0.6637, total_time=564.6763880252838, escape_time=2025-08-12 05:35:12
+after one epoch: 43.783203GB
+
+epoch=167, train_loss=1.0816081013679504, train_acc=0.81407, test_loss=1.525155884742737, test_acc=0.6601, max_test_acc=0.6637, total_time=564.6289780139923, escape_time=2025-08-12 05:35:11
+after one epoch: 43.783203GB
+
+epoch=168, train_loss=1.0691200526809692, train_acc=0.81862, test_loss=1.5274160753250121, test_acc=0.6595, max_test_acc=0.6637, total_time=564.9186797142029, escape_time=2025-08-12 05:35:20
+after one epoch: 43.783203GB
+
+epoch=169, train_loss=1.0540932959365845, train_acc=0.82458, test_loss=1.5212523359298706, test_acc=0.6596, max_test_acc=0.6637, total_time=564.8974902629852, escape_time=2025-08-12 05:35:20
+after one epoch: 43.783203GB
+
+epoch=170, train_loss=1.0430287561798095, train_acc=0.82744, test_loss=1.5126273250579834, test_acc=0.6629, max_test_acc=0.6637, total_time=564.7642631530762, escape_time=2025-08-12 05:35:15
+after one epoch: 43.783203GB
+
+epoch=171, train_loss=1.0368836574935913, train_acc=0.82925, test_loss=1.5175936071395875, test_acc=0.6602, max_test_acc=0.6637, total_time=564.5372922420502, escape_time=2025-08-12 05:35:09
+after one epoch: 43.783203GB
+
+epoch=172, train_loss=1.0200728616333008, train_acc=0.83336, test_loss=1.5043454471588136, test_acc=0.6656, max_test_acc=0.6656, total_time=564.6137192249298, escape_time=2025-08-12 05:35:11
+after one epoch: 43.783203GB
+
+epoch=173, train_loss=0.9993761951828003, train_acc=0.84045, test_loss=1.5090171237945558, test_acc=0.6617, max_test_acc=0.6656, total_time=564.2696390151978, escape_time=2025-08-12 05:35:01
+after one epoch: 43.783203GB
+
+epoch=174, train_loss=0.9858237447357178, train_acc=0.84435, test_loss=1.486512321472168, test_acc=0.6722, max_test_acc=0.6722, total_time=564.5167179107666, escape_time=2025-08-12 05:35:08
+after one epoch: 43.783203GB
+
+epoch=175, train_loss=0.9776520206832886, train_acc=0.8466, test_loss=1.4856486894607543, test_acc=0.6685, max_test_acc=0.6722, total_time=564.4957253932953, escape_time=2025-08-12 05:35:07
+after one epoch: 43.783203GB
+
+epoch=176, train_loss=0.9665105048942566, train_acc=0.85153, test_loss=1.4806627799987793, test_acc=0.6711, max_test_acc=0.6722, total_time=564.7916529178619, escape_time=2025-08-12 05:35:15
+after one epoch: 43.783203GB
+
+epoch=177, train_loss=0.9475435890197754, train_acc=0.8561, test_loss=1.4869729389190673, test_acc=0.6694, max_test_acc=0.6722, total_time=563.3714072704315, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=178, train_loss=0.9395013611984253, train_acc=0.85796, test_loss=1.483120817375183, test_acc=0.6704, max_test_acc=0.6722, total_time=562.9700288772583, escape_time=2025-08-12 05:34:31
+after one epoch: 43.783203GB
+
+epoch=179, train_loss=0.9256367102813721, train_acc=0.86164, test_loss=1.477419408416748, test_acc=0.6739, max_test_acc=0.6739, total_time=563.162825345993, escape_time=2025-08-12 05:34:36
+after one epoch: 43.783203GB
+
+epoch=180, train_loss=0.9193165165328979, train_acc=0.8629, test_loss=1.4744334856033325, test_acc=0.6759, max_test_acc=0.6759, total_time=563.0529594421387, escape_time=2025-08-12 05:34:33
+after one epoch: 43.783203GB
+
+epoch=181, train_loss=0.9034543568038941, train_acc=0.8682, test_loss=1.4637957534790038, test_acc=0.6804, max_test_acc=0.6804, total_time=563.0658845901489, escape_time=2025-08-12 05:34:34
+after one epoch: 43.783203GB
+
+epoch=182, train_loss=0.8887339092445373, train_acc=0.87191, test_loss=1.4645261787414552, test_acc=0.6779, max_test_acc=0.6804, total_time=563.0509347915649, escape_time=2025-08-12 05:34:33
+after one epoch: 43.783203GB
+
+epoch=183, train_loss=0.8726473784255981, train_acc=0.87559, test_loss=1.463298299407959, test_acc=0.6784, max_test_acc=0.6804, total_time=562.8879928588867, escape_time=2025-08-12 05:34:30
+after one epoch: 43.783203GB
+
+epoch=184, train_loss=0.8706204406356811, train_acc=0.87624, test_loss=1.4708777841567993, test_acc=0.6725, max_test_acc=0.6804, total_time=562.8587265014648, escape_time=2025-08-12 05:34:30
+after one epoch: 43.783203GB
+
+epoch=185, train_loss=0.8575347827148437, train_acc=0.88009, test_loss=1.4668083194732666, test_acc=0.6789, max_test_acc=0.6804, total_time=562.9198751449585, escape_time=2025-08-12 05:34:31
+after one epoch: 43.783203GB
+
+epoch=186, train_loss=0.8466038227844238, train_acc=0.88322, test_loss=1.4513424295425414, test_acc=0.6817, max_test_acc=0.6817, total_time=563.2152376174927, escape_time=2025-08-12 05:34:35
+after one epoch: 43.783203GB
+
+epoch=187, train_loss=0.8398624231338501, train_acc=0.88478, test_loss=1.452588747215271, test_acc=0.6824, max_test_acc=0.6824, total_time=563.1672718524933, escape_time=2025-08-12 05:34:35
+after one epoch: 43.783203GB
+
+epoch=188, train_loss=0.831692020702362, train_acc=0.88657, test_loss=1.4531705095291139, test_acc=0.6811, max_test_acc=0.6824, total_time=563.2333860397339, escape_time=2025-08-12 05:34:36
+after one epoch: 43.783203GB
+
+epoch=189, train_loss=0.825202749710083, train_acc=0.88703, test_loss=1.446536681175232, test_acc=0.6847, max_test_acc=0.6847, total_time=563.3157482147217, escape_time=2025-08-12 05:34:37
+after one epoch: 43.783203GB
+
+epoch=190, train_loss=0.818103690032959, train_acc=0.89021, test_loss=1.4423922792434691, test_acc=0.6841, max_test_acc=0.6847, total_time=563.2312829494476, escape_time=2025-08-12 05:34:36
+after one epoch: 43.783203GB
+
+epoch=191, train_loss=0.8093917353057861, train_acc=0.89192, test_loss=1.4440491905212403, test_acc=0.6873, max_test_acc=0.6873, total_time=563.6529788970947, escape_time=2025-08-12 05:34:40
+after one epoch: 43.783203GB
+
+epoch=192, train_loss=0.812271896533966, train_acc=0.8899, test_loss=1.437631746864319, test_acc=0.6844, max_test_acc=0.6873, total_time=563.8750436306, escape_time=2025-08-12 05:34:42
+after one epoch: 43.783203GB
+
+epoch=193, train_loss=0.8029106538772584, train_acc=0.89369, test_loss=1.4351907175064087, test_acc=0.6871, max_test_acc=0.6873, total_time=564.1606945991516, escape_time=2025-08-12 05:34:44
+after one epoch: 43.783203GB
+
+epoch=194, train_loss=0.7992853811645508, train_acc=0.89464, test_loss=1.437911173248291, test_acc=0.6863, max_test_acc=0.6873, total_time=564.0723628997803, escape_time=2025-08-12 05:34:43
+after one epoch: 43.783203GB
+
+epoch=195, train_loss=0.7940564577865601, train_acc=0.89512, test_loss=1.4377701692581177, test_acc=0.6893, max_test_acc=0.6893, total_time=563.734228849411, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=196, train_loss=0.7908226229858398, train_acc=0.89607, test_loss=1.4356130823135376, test_acc=0.6843, max_test_acc=0.6893, total_time=563.6015121936798, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=197, train_loss=0.7865102237701416, train_acc=0.89648, test_loss=1.4367952640533448, test_acc=0.6837, max_test_acc=0.6893, total_time=563.7457575798035, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=198, train_loss=0.7879507217407227, train_acc=0.89777, test_loss=1.4315516487121582, test_acc=0.6887, max_test_acc=0.6893, total_time=563.7275404930115, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
+
+epoch=199, train_loss=0.7959579075431824, train_acc=0.89489, test_loss=1.4338237754821777, test_acc=0.6859, max_test_acc=0.6893, total_time=563.7167513370514, escape_time=2025-08-12 05:34:41
+after one epoch: 43.783203GB
