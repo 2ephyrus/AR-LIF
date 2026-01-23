@@ -1,6 +1,6 @@
 # AR-LIF: Adaptive Reset Leaky Integrate-and-Fire Neuron for Spiking Neural Networks
 
-![main_fig](./main_fig.png)
+![mainfig](./mainfig.png)
 
 This is the official Pytorch implementation of the paper:
 
