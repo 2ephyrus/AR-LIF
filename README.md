@@ -21,7 +21,7 @@ Experiments on the CIFAR10-DVS dataset are implemented based on the [PSN](https:
 	python ./train.py -data_dir ./data_dir -dataset cifar10 -model spiking_resnet18 -T 4 -b 128 -T_max 400 -epochs 400 -weight_decay 5e-5 -neuron XLIF -cutupmix_auto
     
     # CIFAR-100
-    python ./train.py -data_dir ./data_dir -dataset cifar10 -model spiking_resnet18 -T 4 -b 128 -T_max 400 -epochs 400 -neuron XLIF -cutupmix_auto
+    python ./train.py -data_dir ./data_dir -dataset cifar100 -model spiking_resnet18 -T 4 -b 128 -T_max 400 -epochs 400 -neuron XLIF -cutupmix_auto
     
     # Tiny-Imagenet
     python ./train.py -data_dir ./data_dir -dataset tiny_imagenet -model vggsnn -T 4 -b 128 -T_max 200 -epochs 200 -neuron XLIF -cutupmix_auto -j 16 -loss_lambda 0.2 -mse_n_reg
